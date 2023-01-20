@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <input type="text" oninput="search()" id="text-to-search"/>
+            <button>Search</button>
+        </div>
+        <p id="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Accusantium ipsum quaerat tenetur ullam sint dignissimos 
+            iure sit maiores est culpa consequuntur voluptatem tempora,
+            veniam nam temporibus enim, quisquam quis labore?
+        </p>
+        <div>Total matches:- <span id="words-counter">0</span></div>
+        <label for="ignore-case">Ignore case?</label>
+        <input type="checkbox" id="ignore-case" oninput="reset()" />
+    </div>
+</body>
+</html>
